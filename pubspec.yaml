@@ -1,0 +1,34 @@
+name: crypto_tokens_ui
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+
+dev_dependencies:
+
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - lib/presentation/images/
+    - lib/presentation/images/solana.png
+    - lib/presentation/images/illuvium.png
+    - lib/presentation/images/ton.png
+    - lib/presentation/images/stellar.png
+    - lib/presentation/images/bitcoin.png
+    - lib/presentation/images/bnb.png
+    - lib/presentation/images/tether.png

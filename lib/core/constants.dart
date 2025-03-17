@@ -1,0 +1,1 @@
+const double cornerRadius = 20;
